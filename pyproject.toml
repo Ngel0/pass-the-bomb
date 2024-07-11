@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pass-the-bomb"
+version = "0.1.0"
+description = "A game in which the players' choices determine how many steps the bomb travels and whoever it lands on explodes"
+authors = ["Ngel0 <rnb.oleg@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
